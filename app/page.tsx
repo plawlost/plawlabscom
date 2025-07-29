@@ -159,7 +159,7 @@ export default function Home() {
               contact@plawlabs.com
             </a>
             <div className="text-[12px] sm:text-[14px] text-[#666]">
-              London · Istanbul · Surat · Montreal · Cairo &gt; San Francisco
+              London · Istanbul · Surat · Montreal · Cairo → San Francisco
             </div>
           </div>
           <div className="text-center text-[14px] text-[#666] mt-8 italic">
