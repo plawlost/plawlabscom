@@ -16,8 +16,7 @@ export default function Home() {
           {/* Introduction */}
           <section className="mb-20">
             <h1 className="text-[36px] sm:text-[48px] lg:text-[52px] font-normal leading-[1.1] mb-12 tracking-[-0.02em]">
-              We're now fundraising $3M from early-stage VCs, angels, and most importantly, 
-              joining top accelerators this fall.
+              We are now raising a $3M pre-seed round from early-stage VCs, angels, and the top accelerators this fall.
             </h1>
             
             <div className="text-[16px] sm:text-[18px] leading-[1.6] text-[#444] mb-8">
@@ -27,53 +26,124 @@ export default function Home() {
             <hr className="border-[#ddd] border-t my-16" />
             
             <div className="text-[18px] sm:text-[20px] font-bold mb-4">July 28, 2025</div>
+            <p className="text-[16px] sm:text-[18px] leading-[1.7] mb-8">
+              <a href="https://vulnzap.com" className="underline decoration-2 underline-offset-4 hover:bg-[#f0f0f0] px-1 transition-colors">Vulnzap</a>, our first product, is in private beta with public launch set for 1 August 2025. Early momentum:
+            </p>
+            
+            <div className="ml-6 space-y-3 text-[16px] sm:text-[18px] leading-[1.7] mb-8">
+              <p>more than 650 developers have installed the open‑core scanner for private testing</p>
+              <p>weekly growth is about twenty‑two percent</p>
+              <p>over 2.3 million lines of code have been scanned and seven thousand critical issues auto‑fixed in real time</p>
+              <p>five enterprises are running private pilots, two include paid proofs of concept, with signed contracts queued for GA</p>
+            </div>
+            
             <p className="text-[16px] sm:text-[18px] leading-[1.7] mb-16">
-              <a href="https://vulnzap.com" className="underline decoration-2 underline-offset-4 hover:bg-[#f0f0f0] px-1 transition-colors">Vulnzap</a>, our first product, is live and already closing its first major enterprise pilots. Our open core code scanner is running inside hundreds of real developer workflows, shipping real protection where it's needed most. We begin with code, but we're building for something far bigger, something no one has dared to make truly possible.
+              We begin with code, yet we are building for something far bigger, something no one has dared to make truly possible.
             </p>
           </section>
 
           {/* Story */}
           <section className="mb-20">
             <blockquote className="text-[15px] sm:text-[16px] leading-[1.8] italic text-[#666] border-l-4 border-[#ddd] pl-6 sm:pl-8 mb-16">
-              Before this new chapter, in 2024 we set out to build agentic hardware straight out of high school, with zero capital, zero permission, and nothing but drive. We launched in the Emirates, watched our first team shatter, and gathered every hard lesson at full speed. What we rebuilt out of those ashes is sharper, tighter, and aimed straight at the heart of real problems. Scar tissue became focus.
+              In 2024 we tried to build agentic hardware straight out of high school with zero capital and zero permission. We launched in the Emirates, watched the first team shatter, and absorbed every hard lesson at top speed. What rose from those ashes is sharper, tighter, and pointed directly at real problems. Scar tissue became focus.
             </blockquote>
 
             <div className="space-y-8 text-[16px] sm:text-[17px] leading-[1.75]">
+              
+              <div>
+                <h2 className="text-[20px] sm:text-[24px] font-bold mb-4">The Vision</h2>
+                <p>
+                  The future will not belong to whoever has the biggest cluster or the loudest headline. It will belong to the builders who own their intelligence completely.
+                </p>
+              </div>
+
               <p>
-                We believe the future won't belong to whoever gets there first with the biggest brain, the most servers, or the loudest headlines. We're not here to chase "superintelligence" for the sake of it. We're here to make intelligence that's unconditionally yours, always.
+                Most AI today is a rented mind. Log in, accept the black box, and leave your ideas behind someone else's glass. Plaw exists for the opposite. We deliver a foundation of sovereign intelligence that any team can hold, shape, and deploy without compromise, permission, or hidden doors.
               </p>
 
               <p>
-                Most AI today is a rented mind. Log in, take what you're given, and leave your ideas behind someone else's glass. Plaw stands for the opposite: <em>we exist to give anyone, from the obsessed indie builder to tomorrow's most ambitious teams, a foundation of sovereign intelligence they can hold, shape, and deploy without compromise, permission, or backdoors.</em>
+                Sovereign intelligence in practice means you can:
+              </p>
+              
+              <div className="ml-6 space-y-2 text-[16px] sm:text-[17px] leading-[1.75] mb-6">
+                <p>run the model on your own hardware or cloud</p>
+                <p>audit every layer of the stack, from weights to logs</p>
+                <p>retrain or replace any component at will</p>
+                <p>unplug at a moment's notice and keep full functionality offline</p>
+              </div>
+
+              <p>
+                Your stack. Your rules. Permanently.
+              </p>
+
+              <div>
+                <h2 className="text-[20px] sm:text-[24px] font-bold mb-4">Why Now</h2>
+                <p>
+                  AI velocity is ripping past traditional security and policy cycles. Vibecoding—shipping software by prompting large language models at machine speed—adds millions of new lines overnight and multiplies hidden attack surfaces.
+                </p>
+              </div>
+
+              <p>
+                <a href="https://vulnzap.com" className="underline decoration-2 underline-offset-4 hover:bg-[#f0f0f0] px-1 transition-colors">Vulnzap</a> answers that urgency: a real‑time immune system that lives in the IDE, partnering with every keystroke instead of scanning after the fact.
               </p>
 
               <p>
-                We build Plaw with the certainty that AI is moving at blinding speed, with a clear view of how fragile its foundations are.
-              </p>
-
-              <p>
-                We've seen friends ship world-changing apps overnight, powered by AI, only to discover code full of invisible holes that nobody could trust. That's why we built <a href="https://vulnzap.com" className="underline decoration-2 underline-offset-4 hover:bg-[#f0f0f0] px-1 transition-colors">Vulnzap</a>, the first true immune system for an AI-native world: real-time, in-editor defense for code written at machine speed. It protects what you build from the inside out, not a security guard after the fact but a partner at every single keystroke.
-              </p>
-
-              <p>
-                But this is only chapter one. Just like Steve Jobs saw the computer as a bicycle for the mind, we see sovereign intelligence as the most powerful tool anyone can own in this century, if it's truly under their control.
+                This is Chapter One. Chapter Two is the broader sovereign‑AI stack: self‑hosted models, agent orchestration, and provable safety layers that keep the builder—not a cloud vendor—in the driver's seat.
               </p>
 
               <blockquote className="text-[15px] sm:text-[16px] leading-[1.8] italic text-[#666] border-l-4 border-[#ddd] pl-6 sm:pl-8 my-12">
-                We're not a lab. We don't sell research papers, slide decks, or AI vapor. We ship real tools for people whose work doesn't wait.
+                We are not a lab. We do not sell research papers or vapor. We ship tools for people whose work cannot wait.
               </blockquote>
 
-              <p>
-                We are two cofounders, <em>Yaz (vision, generalist, CEO) and Anirudh (technical lead, cofounder, CTO)</em>, building alongside <em>Sherif (founding engineer)</em> and <em>Kyrie (head of marketing & sales)</em>. Our team is fully remote, with roots in Turkey, India, Egypt, and Canada. Originally PlawLabs, we're currently in the process of incorporating as Plaw Inc. in Delaware - right where new legends are made.
-              </p>
+              <div>
+                <h2 className="text-[20px] sm:text-[24px] font-bold mb-4">The Raise</h2>
+                
+                <div className="space-y-4 mb-6">
+                  <p>Round: $3M pre‑seed (SAFE, $12M post‑money cap)</p>
+                  <p>Runway: 18 months</p>
+                </div>
+
+                <p className="mb-4">Use of funds:</p>
+                <div className="ml-6 space-y-2 mb-6">
+                  <p>55 percent hiring (3 senior engineers, 1 product designer, 1 enterprise AE)</p>
+                  <p>20 percent go‑to‑market and community (developer relations, vibecoder advocacy, SF headquarters setup)</p>
+                  <p>15 percent compute and security audits</p>
+                  <p>10 percent contingency and legal</p>
+                </div>
+
+                <p className="mb-4">Milestones on this runway:</p>
+                <div className="ml-6 space-y-2 mb-6">
+                  <p>GA release of Vulnzap (Q4 2025)</p>
+                  <p>$1M ARR run rate (Q2 2026)</p>
+                  <p>MVP of self‑hosted sovereign‑model stack (Q2 2026)</p>
+                  <p>10 enterprise customers in production (Q3 2026)</p>
+                </div>
+              </div>
 
               <p>
-                We want engineers and designers who want to work at the metal, where responsibility meets ambition, and who feel both the thrill and the dread of putting new powers in human hands. <em>Bring us your edge and your skepticism - we'll use both.</em>
+                If you back technical founders tackling foundational AI risk, let us show you the plan.
               </p>
 
+              <div>
+                <h2 className="text-[20px] sm:text-[24px] font-bold mb-4">Team</h2>
+                <p>
+                  Yaz Celebi (Co‑Founder & CEO) – product, design, relentless generalism<br/>
+                  Anirudh Patel (Co‑Founder & CTO) – systems, LLM infrastructure, security engineering<br/>
+                  Sherif Elamir (Founding Engineer) – full‑stack velocity from kernel to UI<br/>
+                  Kyrie Kirk (Head of Marketing & Sales) – turning interest into signed contracts
+                </p>
+              </div>
+
               <p>
-                If you believe intelligence should never be rented and that <em>"secure by default"</em> is non-negotiable, this is your invitation. <em>Help us build what everyone will depend on, but no one will control for you.</em>
+                Fully remote across Turkey, India, Egypt, and Canada; incorporating in Delaware and relocating to San Francisco.
               </p>
+
+              <div>
+                <h2 className="text-[20px] sm:text-[24px] font-bold mb-4">Join Us</h2>
+                <p>
+                  We are hiring senior backend engineers, an ML alignment specialist, and a product designer who want to put new powers safely in human hands. Bring your edge and your skepticism—we will use both.
+                </p>
+              </div>
             </div>
           </section>
 
@@ -89,8 +159,11 @@ export default function Home() {
               contact@plawlabs.com
             </a>
             <div className="text-[12px] sm:text-[14px] text-[#666]">
-              London, Turkey, India, Egypt, Canada → San Francisco
+              London · Istanbul · Surat · Montreal · Cairo &gt; San Francisco
             </div>
+          </div>
+          <div className="text-center text-[14px] text-[#666] mt-8 italic">
+            Build what no one can take from you.
           </div>
         </footer>
 
